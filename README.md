@@ -33,7 +33,7 @@ Abre la dirección que muestra Vite (normalmente `http://localhost:5173`).
 | `npm run preview` | Sirve la compilación de producción para comprobarla |
 | `npm run test` | Ejecuta las pruebas en modo observación (se vuelven a correr al guardar cambios) |
 | `npm run test -- --run` | Ejecuta las pruebas una sola vez |
-| `npm run test -- --run --coverage` | Ejecuta las pruebas una vez y genera el reporte de cobertura |
+| `npm run test --coverage` | Ejecuta las pruebas una vez y genera el reporte de cobertura |
 
 ## Rutas
 
@@ -158,7 +158,7 @@ Cómo están escritas:
 
 ### Cobertura
 
-`npm run test -- --run --coverage` genera el reporte en `coverage/` (carpeta ignorada por git); abre `coverage/index.html` para verlo. El último reporte generado dio:
+`npm run test --coverage` genera el reporte en `coverage/` (carpeta ignorada por git); abre `coverage/index.html` para verlo. El último reporte generado dio:
 
 | Statements | Branches | Functions | Lines |
 | --- | --- | --- | --- |
