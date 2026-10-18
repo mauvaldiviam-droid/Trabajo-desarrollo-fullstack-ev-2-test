@@ -189,10 +189,6 @@ Los nombres de las funciones de `services/` (`obtenerProductos`, `agregarAlCarri
 - **Finalizar compra:** con el carrito vacío ya no muestra "¡Compra simulada con éxito!"; avisa que el carrito está vacío. En el original la compra "se concretaba" aunque no hubiera productos.
 - **Navegación:** las páginas son rutas de una sola aplicación, por lo que ya no se recarga el sitio al cambiar de página. Las rutas desconocidas redirigen al inicio.
 
-## Limitaciones conocidas
+## Url a la nube.
 
-Es un proyecto de curso que simula una tienda; no está pensado para producción.
-
-- **Sin control de acceso en `/admin`:** el ingreso de administrador guarda la sesión en `usuarioActual`, pero ninguna ruta la comprueba, así que el panel se abre escribiendo la dirección directamente. Tampoco hay botón para cerrar sesión (`cerrarSesion` existe en `services/auth.js`, pero la interfaz no lo usa).
-- **Contraseñas sin protección:** se guardan en texto plano en `localStorage`, y el código de recuperación se muestra en pantalla en lugar de enviarse por correo.
-- **Sin backend:** los datos viven en el navegador, por lo que cada navegador (o perfil) tiene su propio catálogo, carrito y usuarios.
+- trabajo-desarrollo-fullstack-ev-2-t.vercel.app
