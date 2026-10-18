@@ -2,8 +2,6 @@
 
 Tienda online de ferretería hecha con React (Vite) y JSX. Es la conversión del proyecto `Trabajo-desarrollo-fullstack-2` (HTML + CSS + JavaScript) a la misma estructura de proyecto que `Ev2-real-main`, manteniendo todas las funcionalidades originales: catálogo con buscador, carrito con control de stock, registro e inicio de sesión, recuperación de contraseña con código y panel de administrador para gestionar el catálogo.
 
-**Aún no incluye pruebas.** El entorno de testing (Vitest + Testing Library + jsdom) ya está configurado igual que en `Ev2-real-main`, listo para agregar los tests después.
-
 ## Requisitos
 
 - Node.js 20.19+ o 22.12+
